@@ -1,0 +1,50 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Java Program",
+      "request": "launch",
+      "mainClass": ""
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "UDP_Sender_Program",
+      "request": "launch",
+      "mainClass": "UDP_Sender_Program",
+      "projectName": "Network programs_348c4c17"
+    },
+    {
+      "type": "java",
+      "name": "UDP_Receiver_progam",
+      "request": "launch",
+      "mainClass": "UDP_Receiver_progam",
+      "projectName": "Network programs_348c4c17"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/aniru/OneDrive/Desktop/STUDY/Advanced Java Programming/New folder/Network programs",
+      "program": "c:/Users/aniru/OneDrive/Desktop/STUDY/Advanced Java Programming/New folder/Network programs/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
